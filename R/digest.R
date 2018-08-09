@@ -107,7 +107,7 @@ digest <- function(object, algo=c("md5", "sha1", "crc32", "sha256", "sha512",
             return(.errorhandler("The specified pathname is not a file: ", # nocov
                                  object, mode=errormode))                  # nocov
         }
-        if (file.access(object, 4)) {
+        if (R.utils::fileAccess(object, 4)) {
             return(.errorhandler("The specified file is not readable: ",
                                  object, mode=errormode))
         }
