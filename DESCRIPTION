@@ -1,4 +1,4 @@
-Package: digest
+Package: NASdigest
 Author: Dirk Eddelbuettel <edd@debian.org> with contributions 
  by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,
  Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,
